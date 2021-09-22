@@ -1,5 +1,7 @@
 <?php 
+    require('vendor/autoload.php');
+    $app = new DankiCode\Application();
 
-    echo 'funcionando!';
+    $app->run();
 
 ?>
