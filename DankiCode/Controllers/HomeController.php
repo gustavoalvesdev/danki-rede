@@ -10,7 +10,7 @@ class HomeController {
             \DankiCode\Views\MainView::render('home');
         } else {
             // renderizar para criar conta
-            \DankiCode\Views\MainView::render('registrar');
+            \DankiCode\Views\MainView::render('login');
         }
 
     }
