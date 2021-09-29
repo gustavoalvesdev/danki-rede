@@ -24,12 +24,13 @@
             <!-- logo-chamada-login -->
 
             <div class="form-login">
+                <h3 style="text-align: center;">Crie sua Conta!</h3>
                 <form method="POST">
+                    <input type="text" name="nome" placeholder="Seu nome...">
                     <input type="text" name="login" placeholder="Login...">
                     <input type="password" name="senha" placeholder="Senha...">
-                    <input type="submit" name="acao" value="Logar!">
+                    <input type="submit" name="acao" value="Criar Conta!">
                 </form>
-                <p><a href="<?php echo INCLUDE_PATH ?>registrar">Criar Conta</a></p>
             </div>
             <!-- form-login -->
         </div>
