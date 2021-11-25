@@ -29,7 +29,8 @@ class RegistrarController
 				$registro->execute();
 
 				\DankiCode\Utilidades::alerta('Registrado com sucesso!');
-				\DankiCode\Utilidades::redirect(INCLUDE_PATH);
+				//\DankiCode\Utilidades::redirect(INCLUDE_PATH);
+                header('Location: ' . INCLUDE_PATH);
 			}
 
 		}

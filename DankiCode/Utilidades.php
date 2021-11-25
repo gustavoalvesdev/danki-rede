@@ -6,7 +6,7 @@ class Utilidades
 {
 	public static function redirect($url)
 	{	
-		echo '<script>window.location.href=' . $url . '</script>';
+		echo '<script>window.location=' . $url . '</script>';
 	}
 
 	public static function alerta($mensagem)
